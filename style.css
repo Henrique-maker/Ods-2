@@ -114,9 +114,30 @@
     text-align: center;
 }
 .reason .container{
-    width: 100px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    margin-top: 60px;
+}
+
+.reason .container .reasonBx{
+    position: relative;
+    background: #fff;
+    width:350px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reason .container .reasonBx img{
+    max-width: 100px;
+}
+
+.reason .container .reasonBx h2{
+    font-weight: 500;
+    font-size: 20px;
+    letter-spacing: 1px;
 }
