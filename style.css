@@ -63,17 +63,6 @@
     letter-spacing: 1px;
 }
 
-.banner header .toggle{
-    position: absolute;
-    right: 100px;
-    top: 36px;
-    width: 36px;
-    height: 36px;
-    background: url(img/menu.png);
-    background-size: cover;
-    cursor: pointer;
-}
-
 .about{
     position: relative;
     width: 100%;
@@ -163,4 +152,41 @@
 
 .explain .imgBx img{
     max-width: 100%;
+}
+
+.more{
+    width: 100%;
+    padding-top: 30px;
+    position: relative;
+    background: #12222d;
+    text-align: center;
+}
+
+.more .container{
+    margin: 0px 100px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    flex-wrap: wrap;
+}
+
+.more .container .contentBx{
+    background: #fff;
+    padding: 60px 50px;
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.footer{
+    background: #162c3b;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
 }
