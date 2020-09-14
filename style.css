@@ -141,3 +141,26 @@
     font-size: 20px;
     letter-spacing: 1px;
 }
+
+.explain{
+    background: #3f8ffc;
+    width: 100%;    
+    padding: 100px;
+    padding-top: 300px;
+    margin-top: -300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.explain .contentBx{
+    max-width: 800px;
+}
+
+.explain .imgBx{
+    max-width: 250px;
+}
+
+.explain .imgBx img{
+    max-width: 100%;
+}
